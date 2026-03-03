@@ -1,6 +1,3 @@
-
-float xoff = 0.0;
-
 void setup(){
   size(600,100);
 }
