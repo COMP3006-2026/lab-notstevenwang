@@ -28,5 +28,5 @@ void setup(){
   
   println("number of Males: " + mc);
   println("number of Females: " + fmc);
-  println("bord after 2003: " +agec);
+  println("born after 2003: " +agec);
 }

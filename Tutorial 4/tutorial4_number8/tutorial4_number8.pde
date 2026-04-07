@@ -11,7 +11,7 @@ void setup(){
   for (int i = 1; i < 9 ; i++){
     println(quarter[i]);
     print("weekdays: " + weekdays[i]  + "\n");
-    print("saturdayy: " + saturday[i]  + "\n");
+    print("saturday: " + saturday[i]  + "\n");
     print("sunday: " +   sunday[i]  + "\n");
   }
   
