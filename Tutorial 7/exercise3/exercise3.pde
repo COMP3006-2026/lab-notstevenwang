@@ -37,7 +37,7 @@ void draw(){
   angle += angularS;
   
   if(!arrived){
-    shuttleS += 0.05;
+    shuttleS += 0.005;
     if(shuttleS >= 1.0){
       shuttleS = 1;
       arrived = true;
