@@ -13,7 +13,7 @@ void setup(){
       translate(100,100);
     }
     else if(i==3) {
-      //translate(-100,0);
+      translate(0,100);
       fill(0);        //help  see that the rect 4 stays
     }
     rect(0,0,100,100);

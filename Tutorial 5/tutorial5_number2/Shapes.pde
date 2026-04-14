@@ -9,7 +9,8 @@ class Shapes{
   }
   
   boolean onShape(float mx, float my){
-    return(mx > x/2 && mx < x/2 && my > y/2 && my < y/2); //alwayys false but doesnt matter cur ovverridde
+    // Base implementation: no hit area; subclasses should override this method.
+    return false;
   }
   
   void dragged(float mx, float my){
@@ -63,6 +64,6 @@ class Circle extends Shapes{
   void drawShape(){
     fill(c);
     ellipseMode(CENTER);
-    ellipse(x, y, r, r);
+    ellipse(x, y, 2*r, 2*r);
   }
 }

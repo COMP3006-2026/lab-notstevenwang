@@ -19,7 +19,7 @@ void draw(){
   
   float sTeta = TWO_PI / 60 * sec;
   float mTeta = TWO_PI / 60 * min;
-  float hTeta = TWO_PI / 12 * hr + TWO_PI / 720 * min;
+  float hTeta = TWO_PI / 12 * (hr % 12) + TWO_PI / 720 * min;
   
   stroke(255, 0, 0, 100);
   strokeWeight(2);
